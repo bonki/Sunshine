@@ -112,7 +112,7 @@
       actualLogs(){
         if(!this.logFilter)return this.logs;
         let lines = this.logs.split("\n");
-        lines = lines.filter(x => x.indexOf(this.logFilter) != -1);
+        lines = lines.filter(x => x.toLowerCase().includes(this.logFilter.toLowerCase()));
         return lines.join("\n");
       }
     },

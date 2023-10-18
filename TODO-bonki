@@ -1,0 +1,35 @@
+[ ] add \tools to $PATH (automagically or in config files?)
+    (this allows dropping in nircmd without having to add it to system PATH)
+
+applications:
+  [-] drag'n'drop order
+  [-] how is display order in moonlight done? by some (hidden) ID or in the order it's sent?
+      -> neither, seems to be by name in lexical order
+         (see also https://ideas.moonlight-stream.org/posts/19/unify-sorting-across-platforms-and-implement-sorting)
+
+log search:
+  [x] autoscroll
+  [x] case-insensitive search
+  [ ] clear button
+
+unpair:
+  [ ] show client IDs/fingerprints
+  [ ] unpair specific clients (see also https://ideas.moonlight-stream.org/posts/241/managed-paired-clients)
+
+commands:
+  [ ] reorder via drag'n'drop
+  [ ] "+" creates new after current row
+  [ ] temporarily deactivate
+
+applications:
+  [ ] image: display which PATH is concatenated for relative paths
+
+GUI:
+  [ ] fix vertical middle-alignment
+  [ ] add "save and restart" next to "save" button?
+  [ ] "configuration" tab adds a "restart" button when changes are made, other tabs don't do this (applications for example)
+      if config state changes, display this in the menu bar and add a restart button there
+  [ ] make menu header sticky so it won't scroll
+  [ ] show logged in username
+  [ ] logout option
+
